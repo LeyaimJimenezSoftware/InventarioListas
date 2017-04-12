@@ -73,7 +73,7 @@ namespace DatosInventario
 
         public Producto buscarProducto(string codigo)
         {
-            string str = "";
+           
             Producto buscado = null;
             bool encontrado = false;
             Producto temporal = primeroInicio;
